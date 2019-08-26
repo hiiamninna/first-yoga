@@ -1,0 +1,78 @@
+html {
+    overflow-y: scroll;
+}
+
+.body {
+    scroll-behavior: smooth;
+    font-family: 'Lexend Exa', sans-serif;
+}
+
+h2 {
+    font-family: 'Lexend Exa', sans-serif;
+}
+
+.foto-background {
+    background: url(../img/about.jpeg) no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.container-marg {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.grid {
+    height: 500px;
+}
+
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.grid-item {
+    float: left;
+    width: 20%;
+}
+  
+.grid-item--width2 { width: 30%;}
+.grid-item--width3 {
+    width: 50%;
+}
+
+.icon-hitam {
+    color: black;
+}
+
+.icon-hitam:hover {
+    color: #d7d1c9;
+}
+
+.about-background {
+    background: url(../img/about-us-pattern.jpeg) no-repeat;
+    width: 100%;
+    height: 250px;
+}
+
+.about-border {
+    border: solid 1px;
+    color: black;
+    opacity: 1;
+}
+
+#regis-fab {
+    width: 60px;
+    height: 60px;
+    top: auto;
+    right: 40px;
+    bottom: 40px;
+    left: auto;
+    position: fixed;
+}
+
+.card:hover {
+    width: 125%;
+    height: 125%;
+}
